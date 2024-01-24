@@ -1,0 +1,41 @@
+/* HomePage.css */
+
+.homepage {
+    width: 1000px;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 300px;
+
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .features,
+  .actions,
+  .about-agriculture {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial', sans-serif;
+  
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-image: url("https://www.bestchoiceschools.com/wp-content/uploads/2021/10/shutterstock_274749410-scaled.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+  height: 100vh;
+}
+
+.container {
+  background-color: #c4c7b238;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  color: #333;
+
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #2a70bb;
+}
+
+.additional-options {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.additional-options button {
+  background: none;
+  border: none;
+  color: #ebeef1;
+  background-color: #2686e7; /* Change background color for Reset Password */
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #007bff;
+}
+
+.additional-options button:hover {
+  text-decoration: underline;
+  background-color: #0056b3;
+}
+
+/* Add some margin or space between the buttons */
+.additional-options button:first-child {
+  margin-right: 8px;
+}
+
+.additional-options button:last-child {
+  margin-left: 8px;
+}
+/* LoginPage.css */
+
+/* ... existing styles ... */
+
+.button-box {
+  flex: 1; /* Use flex to distribute space evenly between button boxes */
+  margin: 0 4px; /* Adjust margin between button boxes */
+}
